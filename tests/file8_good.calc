@@ -1,0 +1,10 @@
+pi = 3.1415;
+r1 = 10 + 12.5;
+r2 = r1 * sin(40);
+r3 = r1 * cos(40);
+
+if r3 < r2 {
+    print("cos(40) < sin(40)");
+} else {
+    print("cos(40) >= sin(40)");
+}

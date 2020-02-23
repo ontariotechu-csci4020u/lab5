@@ -1,0 +1,85 @@
+{:plan
+ [{:title "Lab 5", :default {:check :all}}
+  (:file :Check "tests/file1_good.calc")
+  (:file :Check "tests/file2_good.calc")
+  (:file :Check "tests/file3_good.calc")
+  (:file :Check "tests/file4_good.calc")
+  (:file :Check "tests/file5_good.calc")
+  (:file :Check "tests/file6_good.calc")
+  (:file :Check "tests/file7_good.calc")
+  (:file :Check "tests/file8_good.calc")
+  (:file :Check "tests/file9_good.calc")
+  (:file :Check "tests/file10_good.calc")
+  (:file :Check "tests/file1_bad.calc")
+  (:file :Check "tests/file2_bad.calc")
+  (:file :Check "tests/file3_bad.calc")
+  (:file :Check "tests/file4_bad.calc")
+  (:file :Check "tests/file5_bad.calc")
+  (:file :Check "tests/file6_bad.calc")
+  (:file :Check "tests/file7_bad.calc")
+  (:file :Check "tests/file8_bad.calc")
+  (:file :Check "tests/file9_bad.calc")
+  (:file :Check "tests/file10_bad.calc")],
+ :results
+ [{:return nil,
+   :duration 52,
+   :stdout "\"tests/file1_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 3,
+   :stdout "\"tests/file2_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 3,
+   :stdout "\"tests/file3_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 3,
+   :stdout "\"tests/file4_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 4,
+   :stdout "\"tests/file5_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 3,
+   :stdout "\"tests/file6_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 2,
+   :stdout "\"tests/file7_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 2,
+   :stdout "\"tests/file8_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 1,
+   :stdout "\"tests/file9_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 3,
+   :stdout "\"tests/file10_good.calc\" is good.\n"}
+  {:return nil,
+   :duration 2,
+   :stdout "\"tests/file1_bad.calc\" is bad.\n[CalcLexer] failed.\n"}
+  {:return nil,
+   :duration 1,
+   :stdout "\"tests/file2_bad.calc\" is bad.\n[CalcParser] failed.\n"}
+  {:return nil,
+   :duration 1,
+   :stdout "\"tests/file3_bad.calc\" is bad.\n[CalcParser] failed.\n"}
+  {:return nil,
+   :duration 0,
+   :stdout "\"tests/file4_bad.calc\" is bad.\n[CalcLexer] failed.\n"}
+  {:return nil,
+   :duration 1,
+   :stdout "\"tests/file5_bad.calc\" is bad.\n[CalcParser] failed.\n"}
+  {:return nil,
+   :duration 4,
+   :stdout "\"tests/file6_bad.calc\" is bad.\n[CalcParser] failed.\n"}
+  {:return nil,
+   :duration 1,
+   :stdout "\"tests/file7_bad.calc\" is bad.\n[CalcLexer] failed.\n"}
+  {:return nil,
+   :duration 1,
+   :stdout "\"tests/file8_bad.calc\" is bad.\n[CalcParser] failed.\n"}
+  {:return nil,
+   :duration 0,
+   :stdout "\"tests/file9_bad.calc\" is bad.\n[CalcParser] failed.\n"}
+  {:return nil,
+   :duration 1,
+   :stdout
+   "\"tests/file10_bad.calc\" is bad.\n[CalcParser] failed.\n"}],
+ :version "1.0"}

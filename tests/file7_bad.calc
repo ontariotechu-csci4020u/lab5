@@ -1,0 +1,8 @@
+pi = 3.1415;     // The constant
+r1 = 10 + 12.5;   // The radius
+r2 = r1 * sin(45);
+r3 = r1 * cos(45);
+
+// Quote of the string is not closed.
+print("Difference =, pi * r2 ** 2 - pi * r3 ** 2);
+

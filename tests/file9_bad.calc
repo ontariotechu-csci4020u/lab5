@@ -1,0 +1,8 @@
+pi = 3.1415;
+r1 = 10 + 12.5;
+// The keyword 'to' is missing
+for i in 0 10 {
+  angle = i * 5.0;
+  area = pi * (r * sin(angle)) ** 2;
+  print("Loop", i, "Area", area);
+}

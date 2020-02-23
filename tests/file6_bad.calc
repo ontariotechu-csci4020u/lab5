@@ -1,0 +1,7 @@
+pi = 3.1415;           // The constant
+r1 = 10 + 12.5;        // The radius
+r2 = r1 * sin(45);
+// Cannot have expression on left side
+1 + area1 = pi * r1 ** 2;
+area2 = pi * r2 ** 2;
+print("Difference =", area2 - area1);

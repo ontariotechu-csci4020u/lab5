@@ -1,0 +1,7 @@
+pi = 3.1415;
+r1 = 10 + 12.5;
+r2 = r1 * sin(40);
+r3 = r1 * cos(40);
+
+// print cannot be used as in arithmetics
+2 * print("cos(40) < sin(40)");
