@@ -103,3 +103,36 @@ function areaOfCircle(radius) {
 r = 10;
 print("Radiius", r, "Area", area(r));
 ```
+
+# Building a parser
+
+Your task is to author a lexer and parser that can accept valid programs, but rejects invalid programs.  In this assignment, we are not concerned about the actual computational execution of the source code.
+
+## Test code
+
+You will find 10 valid programs, and 10 invalid programs containing various syntactic errors.  Your parser should accept all the valid programs, and reject the invalid programs.
+
+## Authoring the grammar
+
+Create the grammar `Calc.g4` using Antlr.  Make sure the start symbol is called `program`.  You are free to introduce any syntactic variables as well as tokenization rules.
+
+## Learn the Java application code.
+
+For this assignment, you are given two Java classes that will drive the authored grammar:
+
+- `Check.java`.  It contains a static method `Check.file(String filename)` that will check the syntactic validity
+of the specified file.  It will use the lexical analyzer to create the token stream, and parses the token stream
+using the `CalcParser`.
+
+- `ErrorListener.java` is an implementation of Antlr's `BaseErrorListen`.  It provides a basic error reporting upon tokenization and parsing.
+
+- Study the code to understand how error handling is done for Antlr.  You are expected to do this for future assignments.
+
+# Checking your work
+
+A Makefile is given to you with the following targets:
+
+- `make g4`: compiles the Antlr grammar and generates the necessary Java source files.
+- `make java`: compiles the Java source files to generate the Java classes.
+- `make check`: uses the generated Java parser to check the validity of all test files.
+- `make clean`: removes all generated files
